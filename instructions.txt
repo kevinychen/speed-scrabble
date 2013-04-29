@@ -1,0 +1,20 @@
+Instructions
+
+   Your Speed Scrabble name appears on the top of the window. To change your name, go to "Options" and click "Change Name".
+
+   There are two ways to play a game: you can join a game hosted by another computer, or you can start a game yourself. To join a game, simply go to "Network" and select "Join". Type in the IP Address of the computer that is hosting the game you wish to join. The screen should say "CONNECTING...", and in a few moments, the game screen should show up and the game will begin.
+   To start a game yourself, go to "Network" and select "Create". An input dialog will inquire how many players you wish to be in your game. Type a number from 1 to 3, and the screen should say "RECEIVING...". Tell others the IP Address of your computer, and they will be able to connect to your server and begin playing a game.
+
+Note: if you wish to play yourself in a game that you create, you will still need to select "Join" after creating a network and then type your own IP Address.
+Note: Speed Scrabble v3.4 uses port 8189 in networking. Do not run this program if another application uses this port.
+
+
+Here are the bonus features in Speed Scrabble v3.4:
+
+Graphics On: This can be toggled on the "Options" menu. When selected, tiles on your screen will appear to glide from one spot to another, as opposed to teleporting instantaneously to their new spots.
+
+Count Ties: If you are hosting a game on your computer, then when this option is selected, the server will count two attempted steals which occur at about the same time (see the following: "Set Tie wait-time") as being a Tie, and will not allow either player to get a word. When this scenario occurs, only the players who tied may attempt to take other words, and they may not repeat a word that they have said themselves. All other players must wait until a new tile is flipped or one of the players eventually gets a word.
+
+Set Tie wait-time: This will allow you to vary the time difference in which the server will count the attempted takes as a tie. For example, if this is set to 200 msec, then any two attempted takes less than 200 msec apart will result in a tie. The minimum wait-time is 50 msec and the maximum is 500 msec.
+
+Close Server: This will close the current server and disconnect all the clients under the server. Note that a server will automatically close if all its clients leave.
